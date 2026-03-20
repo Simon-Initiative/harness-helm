@@ -2,6 +2,8 @@
 
 `harness-helm` is a local-first Python TUI for observing harness work items as they change on disk.
 
+![helm screenshot](helm.png)
+
 ## What It Does
 
 - Show plan phases and titles from `plan.md`.
