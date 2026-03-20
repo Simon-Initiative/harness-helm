@@ -1,0 +1,24 @@
+requirements:
+  FR-1:
+    title: Show plan phases from plan.md
+    status: validated
+    validated_by: tests/test_plan_view.py
+    acceptance_criteria:
+      - id: AC-1
+        title: Phase headings are visible
+        status: validated
+        verification_method: automated
+        proofs:
+          - tests/test_plan_view.py
+  FR-2:
+    title: Refresh when files change
+    status: pending
+    validation:
+      test: tests/test_refresh.py
+acceptance_criteria:
+  - id: AC-2
+    title: Refresh notices changed files
+    status: pending
+    verification_method: automated
+    proofs:
+      - tests/test_refresh.py

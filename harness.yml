@@ -1,0 +1,38 @@
+version: 1
+
+capabilities:
+  feature_flags:
+    adoption: disabled
+    default: exclude
+    details_file: docs/OPERATIONS.md
+  telemetry:
+    adoption: enabled
+    default: include
+    details_file: docs/OPERATIONS.md
+  performance_requirements:
+    adoption: enabled
+    default: exclude
+    details_file: docs/OPERATIONS.md
+  code_review:
+    adoption: enabled
+    default: include
+    details_file: docs/CODEREVIEW.md
+  issue_tracking:
+    adoption: enabled
+    default: include
+    details_file: docs/ISSUE_TRACKING.md
+
+providers:
+  observability:
+    name: local-logging
+  issue_tracker:
+    name: harness-filesystem
+
+links:
+  architecture: ARCHITECTURE.md
+  stack: docs/STACK.md
+  tooling: docs/TOOLING.md
+  testing: docs/TESTING.md
+  frontend: docs/FRONTEND.md
+  backend: docs/BACKEND.md
+  product_sense: docs/PRODUCT_SENSE.md
